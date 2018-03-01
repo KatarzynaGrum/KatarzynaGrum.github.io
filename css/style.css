@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8f8f8f;
+}
+
+h1 {
+  color: #a2c2e0;
+    text-align: center;
+}
+
+h2 {
+    color: #fdfdff;
+    text-align: center;
+}
+
+.img {
+    width: 330px;
+    height: 330px;
+    border-radius: 250px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    display: block;
+    margin: auto;
+    background: url(../img/imgscale.jpg) no-repeat;
+}
+
+.icons{
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+}
+
+.house {
+    width: 32px;
+    height: 32px;
+}
+
+.github {
+    width: 32px;
+    height: 32px;
+}
+.linkedin {
+    width: 32px;
+    height: 32px;
+}
+.email {
+    width: 32px;
+    height: 32px;
+}
+
+.phonecall{
+    width: 32px;
+    height: 32px;
+}
