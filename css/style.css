@@ -1,7 +1,8 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #8f8f8f;
 }
@@ -30,28 +31,32 @@ h2 {
 .icons{
     width: auto;
     height: auto;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 .house {
     width: 32px;
     height: 32px;
+    margin-right: 20px;
 }
 
 .github {
     width: 32px;
     height: 32px;
+    margin-right: 20px;
 }
 .linkedin {
     width: 32px;
     height: 32px;
+    margin-right: 20px;
 }
-.email {
+.file {
     width: 32px;
     height: 32px;
+    margin-right: 20px;
+    margin-top: 5px;
+
 }
 
-.phonecall{
-    width: 32px;
-    height: 32px;
-}
